@@ -1,0 +1,44 @@
+.home-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+}
+.Image{
+    height: 400px;
+    width: 400px;
+    background-color: aliceblue;
+}
+.Upload{
+    height: 400px;
+    width: 400px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 1rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: aliceblue;
+}
+.ubtn{
+    height: 60px;
+    width: 220px;
+    border-radius: 35px;
+    border: 0px solid ;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: aliceblue;
+}
+.ubtn:hover{
+    color: black;
+    background-color: aliceblue;
+    transition: background-color 0.5s ease-in-out,color 0.5s ease-in-out;
+}

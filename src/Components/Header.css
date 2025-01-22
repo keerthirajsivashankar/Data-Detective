@@ -1,8 +1,9 @@
 .header{
-    height: 10%;
+    height: 15%;
     margin: 1rem;
     border-radius: 16px;
     display: flex ;
+    flex-direction: row;
     justify-items: flex-start;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
@@ -11,4 +12,14 @@
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     color: aliceblue;
+}
+.nav{
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+}
+.Logo{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
 }

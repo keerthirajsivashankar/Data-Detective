@@ -1,48 +1,67 @@
 import React from "react";
+import "./Footer.css";
+
 const Footer = () => {
   return (
     <footer className="footer">
-        <div className="content">
-            <div className="main">
-            <div className="col">
-                <h4>Links</h4>
-                <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div>
-            <div className="col">
-                <h4>Our Services</h4>
-                <ul>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">Web Designing</a></li>
-                <li><a href="#">Product Management</a></li>
-                <li><a href="#">Marketing</a></li>
-                <li><a href="#">Graphics</a></li>
-                </ul>
-            </div>
-            <div className="col">
-                <h4>Products</h4>
-                <ul>
-                <li><a href="#">Fraud Detection</a></li>
-                <li><a href="#">Data Cleaning</a></li>
-                <li><a href="#">Anamoly Detection</a></li>
-                <li><a href="#">CSV File conversion</a></li>
-                </ul>
-            </div>
-            <div className="col">
-                <h4>Follow Us</h4>
-                <ul>
-                <li><a href="#">Fraud Detection</a></li>
-                <li><a href="#">Data Cleaning</a></li>
-                <li><a href="#">Anamoly Detection</a></li>
-                <li><a href="#">CSV File conversion</a></li>
-                </ul>
-            </div>
-            </div>
+      <div className="footer-container">
+        {/* Brand Section */}
+        <div className="footer-section brand">
+          <h2>Brand</h2>
+          <div className="social-icons">
+            <a href="#"><i className="fa fa-facebook"></i></a>
+            <a href="#"><i className="fa fa-twitter"></i></a>
+            <a href="#"><i className="fa fa-instagram"></i></a>
+            <a href="#"><i className="fa fa-tumblr"></i></a>
+            <a href="#"><i className="fa fa-linkedin"></i></a>
+          </div>
         </div>
+
+        {/* Links Section */}
+        <div className="footer-section">
+          <h3>ABOUT</h3>
+          <ul>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div className="footer-section">
+          <h3>RESOURCES</h3>
+          <ul>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Anomaly Detection</a></li>
+            <li><a href="#">Fraudulant Management</a></li>
+            <li><a href="#">Network Traffic Avoider</a></li>
+          </ul>
+        </div>
+
+        <div className="footer-section">
+          <h3>CONTACT</h3>
+          <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Location</a></li>
+          </ul>
+        </div>
+
+        {/* Additional Info */}
+        <div className="footer-section additional-info">
+          <h3>ADDITIONAL INFO</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+            lobortis urna massa, eget mattis ligula consequat eu. Nam quis arcu
+            non risus consequat blandit sed at mauris.
+          </p>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        Lorem ipsum dolor sit amet - All Rights Reserved
+      </div>
     </footer>
   );
 };
