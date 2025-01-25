@@ -1,51 +1,48 @@
-# 🚨 Fraud Detection in Financial Transactions  
+# 💡 Fraud Detection Web Application  
 
-Welcome to the **Fraud Detection in Financial Transactions** project! 🎉  
-This project aims to build a web application that can detect fraudulent transactions using the **Isolation Forest algorithm**. It also provides interactive visualizations of the detection results to make it easier to identify and analyze potential fraud cases.  
+Welcome to my **Fraud Detection Web Application**! 🚀  
+This project utilizes machine learning to detect fraudulent transactions and provides an intuitive frontend using **React** for interactive data visualization and analysis. The application is designed to help financial institutions identify suspicious transactions efficiently.
 
 ---
 
 ## 🔎 Project Overview  
 
 - 📌 **Purpose**:  
-  This project is designed to identify fraudulent financial transactions using machine learning techniques, specifically the **Isolation Forest algorithm**. The system provides a web-based platform where users can upload transaction data, view results, and interact with visualizations of potential fraud cases.
+  The main goal of this project is to develop a web application that can detect fraud in financial transactions using the **Isolation Forest** algorithm. The frontend is built with **React** for dynamic user interaction and data visualization.
 
 - 💡 **Core Features**:  
-  - **Transaction Upload**: Users can upload transaction datasets in CSV format.  
-  - **Fraud Detection**: The system automatically detects fraudulent transactions using the Isolation Forest algorithm.  
-  - **Interactive Visualizations**: Visualizations to analyze detected fraud cases with various metrics and insights.  
-  - **Result Download**: Users can download the results after fraud detection in a CSV format.
+  - Upload and process transaction data files (CSV, Excel).
+  - Detect potential fraudulent transactions based on machine learning predictions.
+  - Visualize results interactively, such as graphs and charts for analysis.
+  - Responsive UI for a seamless experience across devices.
 
 ---
 
 ## 🛠️ Technologies Used  
 
 - **Frontend**:  
-  - **HTML**, **CSS**, **JavaScript**: For creating the user interface and interactions.  
-  - **Chart.js**: For visualizing results interactively.  
+  - **React**: For building the dynamic user interface.  
+  - **CSS**: For styling the frontend with a responsive design.  
+  - **Chart.js/ D3.js**: For interactive visualizations of the data analysis results.  
 
-- **Backend**:  
-  - **Django**: Web framework for building the backend and handling server-side logic.  
-  - **Pandas**: For data manipulation and handling CSV files.  
-  - **Scikit-learn**: For implementing the Isolation Forest algorithm.  
-  - **NumPy**: For handling numerical operations.
+- **Backend** (Algorithm):  
+  - **Python**: For implementing the **Isolation Forest** fraud detection algorithm.  
+  - **Flask/Django**: For building the backend API to handle data processing requests.  
 
 ---
 
 ## 🚀 Features  
 
-- **Upload Transaction Data**:  
-  Users can upload CSV files containing transaction data (e.g., transaction ID, amount, timestamp, etc.).  
+- **Data Upload**:  
+  Users can upload transaction data in CSV or Excel format, which is then processed for fraud detection.
 
 - **Fraud Detection**:  
-  The system runs the Isolation Forest algorithm to identify potentially fraudulent transactions.  
+  The system uses the **Isolation Forest** algorithm to predict whether each transaction is fraudulent or not.
 
-- **Visualizations**:  
-  - Graphs to visualize fraud detection results, such as percentage of fraudulent transactions.  
-  - Data distribution to understand patterns in legitimate vs. fraudulent transactions.  
+- **Interactive Visualizations**:  
+  Users can view results through interactive charts and graphs, making it easier to understand the analysis.
 
-- **Download Results**:  
-  After detection, users can download a CSV file containing the flagged fraudulent transactions.
+- **Responsive Design**:  
+  The frontend adjusts dynamically to different screen sizes, ensuring a smooth experience on mobile, tablet, or desktop.
 
 ---
-
