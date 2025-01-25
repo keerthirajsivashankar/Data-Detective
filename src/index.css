@@ -13,6 +13,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
+  width: 450px;
 }
 
 .header ul li {
@@ -24,7 +25,10 @@ body {
   text-decoration: none;
 }
 
-
+.header ul li h3{
+  text-decoration: none;
+  font-weight: 100;
+}
 
 
 .main{

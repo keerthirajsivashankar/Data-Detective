@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Image from "./image.png"
 import "./Home.css"
 const HomePage = () => {
   const navigate = useNavigate();
@@ -9,7 +10,9 @@ const HomePage = () => {
   };
   return (
     <div className="home-page">
-      <div className="Image"><img src="" alt="" /></div>
+      <div className="Image">
+        <img src={Image} alt="Logo" className="Image"  />
+      </div>
       <div className="Upload">
         <button className="ubtn" onClick={handleUploadClick}><h1>Upload File</h1></button>
         <br />

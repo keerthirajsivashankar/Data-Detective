@@ -9,7 +9,6 @@
 .Image{
     height: 400px;
     width: 400px;
-    background-color: aliceblue;
 }
 .Upload{
     height: 400px;
@@ -37,11 +36,15 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     color: aliceblue;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 .ubtn:hover {
     color: black;
     background-color: aliceblue;
     transition: background-color 0.8s ease-in-out, color 0.8s ease-in-out;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   }
 .carosal{
     height: 400px;

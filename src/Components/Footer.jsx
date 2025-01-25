@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-container">
         {/* Brand Section */}
         <div className="footer-section brand">
-          <h2>Brand</h2>
+          <h2>Fraud Detection</h2>
           <div className="social-icons">
             <a href="#"><i className="fa fa-facebook"></i></a>
             <a href="#"><i className="fa fa-twitter"></i></a>
@@ -53,9 +53,7 @@ const Footer = () => {
         <div className="footer-section additional-info">
           <h3>ADDITIONAL INFO</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            lobortis urna massa, eget mattis ligula consequat eu. Nam quis arcu
-            non risus consequat blandit sed at mauris.
+            We are here to help you to find the anamoly in your csv data using one of the most cuttign edge technology call isolation forest algorithm . Make sure you uplad a .CSV file
           </p>
         </div>
       </div>
