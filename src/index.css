@@ -2,9 +2,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
   height: 100vh;
-  background-image: url("./assets/bbg_dd.png");
+  background: linear-gradient(135deg,#442063,#242f65);
 }
 
 
@@ -38,3 +37,60 @@ body {
 
 /* HomePage.css */
 
+/*Processing Page*/
+.processing-page{
+  color: #f4f4f4;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+.result-1{
+  height: 300px;
+  width: 96%;
+  margin: 1rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+.result{
+  height: 500px;
+  width: 1150px;
+  margin: 1rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 20px;
+}
+.ubtn{
+  height: 60px;
+  width: 220px;
+  border-radius: 35px;
+  border: 0px solid ;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: aliceblue;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

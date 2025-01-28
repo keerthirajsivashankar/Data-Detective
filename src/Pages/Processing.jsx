@@ -18,10 +18,25 @@ const ProcessingPage = () => {
 
   return (
     <div className="processing-page">
-      <h2>Upload and Process Data</h2>
-      <input type="file" onChange={handleFileUpload} />
-      <button onClick={handleProcess}>Process File</button>
-      {file && <p>Uploaded File: {file.name}</p>}
+      <div className="result-1">
+        <h1>Upload and Process Data</h1>
+        {/* Hidden file input */}
+        <input
+          id="file-upload"
+          type="file"
+          onChange={handleFileUpload}
+          style={{ display: "none" }}
+        />
+        {/* Label styled as button */}
+        <label htmlFor="file-upload" className="ubtn">
+          <h2>Choose File</h2>
+        </label>
+        <button className="ubtn" onClick={handleProcess}><h2>Process File</h2></button>
+        {file && <p>Uploaded File: {file.name}</p>}
+      </div>
+      <div className="result">
+        <h2>Result</h2>
+      </div>
     </div>
   );
 };
