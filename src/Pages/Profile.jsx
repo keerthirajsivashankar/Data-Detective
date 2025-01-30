@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "./profile.jpg"
+import Profile from "./profile.jpg";
 const ProfilePage = () => {
   return (
     <div className="profile-page">
