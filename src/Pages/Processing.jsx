@@ -76,7 +76,7 @@ const ProcessingPage = () => {
       </div>
 
       <div className="result">
-        <h2>Result</h2>
+        <h2 className="result1">Result</h2>
       </div>
     </div>
   );
